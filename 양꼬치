@@ -1,0 +1,4 @@
+def solution(n, k):
+    juice = n // 10;
+    price = 12000 * n + 2000 * ( k - juice);
+    return price
